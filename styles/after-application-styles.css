@@ -45,9 +45,6 @@
   .after-application__step {
     margin-bottom: 100px;
   }
-}
-
-@media screen and (max-width: 768px) {
   .after-application {
     display: initial;
   }
@@ -93,7 +90,15 @@
   content: "";
   position: absolute;
   height: 295px;
+  height: 210%;
   left: 60px;
   top: 88px;
   border-left: 2px dashed lightgray;
+}
+
+@media screen and (max-width: 1024px) {
+  .after-application__step > p::before,
+  .after-application__step:not(:last-child) > p::after {
+    display: none;
+  }
 }
