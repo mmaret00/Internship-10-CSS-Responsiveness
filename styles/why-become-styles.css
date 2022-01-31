@@ -14,7 +14,7 @@
 }
 
 .why-become__title__bottom {
-  max-width: 50%;
+  max-width: 70%;
   font-family: "Fuse V.2 Display";
   line-height: 23px;
 }
@@ -30,14 +30,12 @@
     margin-bottom: 20px;
     width: 50%;
   }
-  .why-become__title__bottom {
-    max-width: 100%;
-  }
 }
 
 .why-become__bottom {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .why-become__bottom > img {
@@ -45,7 +43,7 @@
 }
 
 .why-become__bottom__property_wrapper {
-  margin-left: 80px;
+  margin-left: 5%;
 }
 
 .why-become__bottom__property {
@@ -68,10 +66,10 @@
   font-size: 16px;
   font-family: "Source Sans Pro Regular";
   line-height: 25px;
-  width: 140%;
+  max-width: 90%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .why-become__bottom {
     display: flex;
     flex-direction: column-reverse;
@@ -81,8 +79,5 @@
     content: url("../assets/reasons-members-mobile.png");
     width: 75%;
     align-self: center;
-  }
-  .why-become__bottom__property__text__bottom {
-    width: 100%;
   }
 }

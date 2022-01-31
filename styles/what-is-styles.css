@@ -27,7 +27,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 950px) {
   .what-is__title__top,
   .what-is__title__bottom {
     font-size: 55px;
