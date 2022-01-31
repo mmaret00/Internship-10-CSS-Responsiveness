@@ -29,14 +29,16 @@
   display: flex;
   margin-bottom: 180px;
   align-items: center;
+  position: relative;
+  background-color: transparent;
 }
 
 .after-application__step > p {
   font-family: "Source Sans Pro Bold";
   font-size: 112px;
-  color: #44c79b;
+  color: rgba(68, 199, 155, 0.4);
+  background-color: transparent;
   margin-right: 32px;
-  opacity: 0.4;
 }
 
 @media screen and (max-width: 1024px) {
@@ -74,4 +76,24 @@
   font-size: 16px;
   line-height: 25px;
   max-width: 80%;
+}
+
+.after-application__step > p::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(68, 199, 155, 0.8);
+  border-radius: 50%;
+  left: 56px;
+  top: 70px;
+}
+
+.after-application__step:not(:last-child) > p::after {
+  content: "";
+  position: absolute;
+  height: 295px;
+  left: 60px;
+  top: 88px;
+  border-left: 2px dashed lightgray;
 }
