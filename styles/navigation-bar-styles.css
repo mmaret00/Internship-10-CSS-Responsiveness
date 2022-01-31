@@ -10,14 +10,14 @@
   display: flex;
 }
 
-.navigation-bar__link {
+.navigation-bar__link_wrapper > a {
   margin: 10px 40px 10px 0;
   font-size: 16px;
   position: relative;
   overflow: hidden;
 }
 
-.navigation-bar__link::before {
+.navigation-bar__link_wrapper > a::before {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -29,7 +29,7 @@
   opacity: 0.7;
 }
 
-.navigation-bar__link:hover::before {
+.navigation-bar__link_wrapper > a:hover::before {
   left: 0;
 }
 
