@@ -34,7 +34,6 @@
 
 .why-become__bottom {
   display: flex;
-  justify-content: center;
   align-items: flex-start;
 }
 
@@ -71,9 +70,7 @@
 
 @media screen and (max-width: 768px) {
   .why-become__bottom {
-    display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
   }
   .why-become__bottom > img {
     content: url("../assets/reasons-members-mobile.png");
