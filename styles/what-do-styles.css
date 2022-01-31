@@ -16,7 +16,6 @@
 
 @media screen and (max-width: 1024px) {
   .what-do__title {
-    line-height: 56px;
     margin: 0 20px;
   }
 }
@@ -34,9 +33,8 @@
 }
 
 .what-do__poster_wrapper > a {
-  z-index: 2;
+  z-index: 1;
   margin: 20px;
-  background-color: transparent;
 }
 
 .what-do__poster {
@@ -55,9 +53,9 @@
   }
 
   .what-do__poster_wrapper > a {
-    margin: 10px;
+    margin: 15px;
   }
   .what-do__poster {
-    border-radius: 15px;
+    border-radius: 20px;
   }
 }
