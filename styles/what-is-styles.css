@@ -22,6 +22,7 @@
 .what-is__title p {
   margin-left: 200px;
   background-color: transparent;
+  position: relative;
 }
 
 @media screen and (max-width: 950px) {
@@ -54,12 +55,13 @@
 
 .what-is__box {
   width: 228px;
-  padding: 24px;
+  padding: 40px 24px;
   background-color: white;
   border-radius: 32px;
   margin: 0 32px 32px 0;
   z-index: 1;
   box-shadow: rgba(174, 180, 185, 0.2) 0px 5px 10px;
+  line-height: 26px;
 }
 
 @media screen and (max-width: 1440px) {
