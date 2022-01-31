@@ -1,0 +1,88 @@
+.why-become {
+  margin: 0 200px;
+}
+
+.why-become__title p:last-child {
+  margin-bottom: 100px;
+}
+
+.why-become__title__top {
+  font-size: 112px;
+  font-family: "Source Sans Pro Bold";
+  line-height: 120px;
+  margin-bottom: 15px;
+}
+
+.why-become__title__bottom {
+  max-width: 50%;
+  font-family: "Fuse V.2 Display";
+  line-height: 23px;
+}
+
+@media screen and (max-width: 1024px) {
+  .why-become {
+    margin: 0 25px;
+  }
+
+  .why-become__title__top {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+  .why-become__title__bottom {
+    max-width: 100%;
+  }
+}
+
+.why-become__bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.why-become__bottom > img {
+  content: url("../assets/reasons-members.png");
+}
+
+.why-become__bottom__property_wrapper {
+  margin-left: 80px;
+}
+
+.why-become__bottom__property {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 80px;
+}
+
+.why-become__bottom__property__text {
+  margin: 0 15px;
+}
+
+.why-become__bottom__property__text__top {
+  font-size: 36px;
+  font-family: "Source Sans Pro Bold";
+  margin-bottom: 10px;
+}
+
+.why-become__bottom__property__text__bottom {
+  font-size: 16px;
+  font-family: "Source Sans Pro Regular";
+  line-height: 25px;
+  width: 140%;
+}
+
+@media screen and (max-width: 1024px) {
+  .why-become__bottom {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .why-become__bottom > img {
+    content: url("../assets/reasons-members-mobile.png");
+    width: 75%;
+    align-self: center;
+  }
+  .why-become__bottom__property__text__bottom {
+    width: 100%;
+  }
+}

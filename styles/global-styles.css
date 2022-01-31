@@ -1,0 +1,65 @@
+* {
+  background-color: white;
+  margin: 0;
+  font-family: "Source Sans Pro";
+  color: black;
+}
+
+*::selection {
+  background-color: rgba(92, 194, 160, 0.2);
+}
+
+button {
+  font-size: 16px;
+  background-color: #5cc2a0;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.partial-background {
+  height: 75%;
+  width: 100%;
+  background-color: lightgray;
+  opacity: 0.123;
+  position: absolute;
+  border-radius: 40px;
+  left: -10%;
+  top: 8%;
+}
+
+.layout-spacing {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../assets/fonts/SourceSansPro-Semibold.otf");
+}
+
+@font-face {
+  font-family: "Source Sans Pro Bold";
+  src: url("../assets/fonts/SourceSansPro-Bold.otf");
+}
+
+@font-face {
+  font-family: "Fuse V.2 Display";
+  src: url("../assets/fonts/Fuse V2 Display Normal.otf");
+}
+
+@font-face {
+  font-family: "Source Sans Pro Light";
+  src: url("../assets/fonts/SourceSansPro-Light.otf");
+}
+
+@font-face {
+  font-family: "Source Sans Pro Regular";
+  src: url("../assets/fonts/SourceSansPro-Regular.otf");
+}

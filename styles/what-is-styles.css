@@ -1,0 +1,113 @@
+.what-is {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.what-is__title__top,
+.what-is__title__bottom {
+  font-size: 112px;
+  font-family: "Source Sans Pro Bold";
+  line-height: 125px;
+}
+
+.what-is__title__bottom {
+  color: rgb(68, 199, 155);
+}
+
+.what-is__title__subtitle {
+  max-width: 380px;
+  font-family: "Fuse V.2 Display";
+}
+
+.what-is__title__top,
+.what-is__title__bottom,
+.what-is__title__subtitle {
+  margin-left: 200px;
+  background-color: transparent;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .what-is__title__top,
+  .what-is__title__bottom {
+    font-size: 55px;
+    line-height: 55px;
+    margin: 0 20px;
+  }
+  .what-is__title__subtitle {
+    line-height: 25px;
+  }
+  .what-is__title__subtitle {
+    margin: 0 20px;
+  }
+}
+
+.what-is__box_wrapper {
+  display: flex;
+  margin: 100px;
+}
+
+.what-is__box--row {
+  display: flex;
+}
+
+.what-is__box {
+  width: 228px;
+  padding: 24px;
+  background-color: white;
+  border-radius: 32px;
+  margin: 0 32px 32px 0;
+  z-index: 1;
+  box-shadow: rgba(174, 180, 185, 0.2) 0px 5px 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .what-is__box--row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .what-is__box_wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px 10px 10px 10px;
+  }
+  .what-is__box {
+    width: 200px;
+    margin: 10px;
+  }
+}
+
+.what-is__box__title {
+  margin: 28px 0 8px;
+  font-family: "Source Sans Pro Bold";
+}
+
+.what-is__box__text {
+  font-size: 16px;
+  font-family: "Fuse V.2 Display";
+  margin: 20px 0;
+}
+
+.what-is__box--row:nth-child(1)
+  .what-is__box:nth-child(1)
+  .what-is__box__title {
+  color: #6da5e3;
+}
+
+.what-is__box--row:nth-child(1)
+  .what-is__box:nth-child(2)
+  .what-is__box__title {
+  color: #44c79b;
+}
+
+.what-is__box--row:nth-child(2)
+  .what-is__box:nth-child(1)
+  .what-is__box__title {
+  color: #b087ed;
+}
+
+.what-is__box--row:nth-child(2)
+  .what-is__box:nth-child(2)
+  .what-is__box__title {
+  color: #ae2536;
+}
