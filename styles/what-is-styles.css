@@ -9,10 +9,6 @@
   line-height: 125px;
 }
 
-#what-is__title__bottom {
-  color: rgb(68, 199, 155);
-}
-
 .what-is__title p {
   max-width: 30%;
   font-family: "Fuse V.2 Display";
@@ -25,21 +21,28 @@
   position: relative;
 }
 
+#what-is__title__bottom {
+  color: rgb(68, 199, 155);
+}
+
 @media screen and (max-width: 950px) {
   .what-is__title h1 {
     font-size: 55px;
     line-height: 55px;
-    margin: 0 20px;
   }
-  #what-is__title__bottom {
-    margin-bottom: 20px;
-  }
+
   .what-is__title p {
     line-height: 25px;
     max-width: 60%;
   }
+
+  .what-is__title h1,
   .what-is__title p {
     margin: 0 20px;
+  }
+
+  #what-is__title__bottom {
+    margin-bottom: 20px;
   }
 }
 
@@ -65,14 +68,16 @@
 }
 
 @media screen and (max-width: 1440px) {
-  .what-is__box_row {
-    flex-wrap: wrap;
-  }
   .what-is__box_wrapper {
     flex-wrap: wrap;
     justify-content: center;
     margin: 100px 10px 10px 10px;
   }
+
+  .what-is__box_row {
+    flex-wrap: wrap;
+  }
+
   .what-is__box {
     width: 200px;
   }
@@ -89,7 +94,7 @@
   margin: 20px 0;
 }
 
-.what-is__box_row:nth-child(1) .what-is__box:nth-child(1) .what-is__box__title {
+.what-is__box_row:nth-child(1) .what-is__box:first-child .what-is__box__title {
   color: #6da5e3;
 }
 
@@ -97,7 +102,7 @@
   color: #44c79b;
 }
 
-.what-is__box_row:nth-child(2) .what-is__box:nth-child(1) .what-is__box__title {
+.what-is__box_row:nth-child(2) .what-is__box:first-child .what-is__box__title {
   color: #b087ed;
 }
 

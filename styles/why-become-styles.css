@@ -38,6 +38,17 @@
   content: url("../assets/reasons-members.png");
 }
 
+@media screen and (max-width: 768px) {
+  .why-become__bottom {
+    flex-direction: column-reverse;
+  }
+  .why-become__bottom > img {
+    content: url("../assets/reasons-members-mobile.png");
+    width: 75%;
+    align-self: center;
+  }
+}
+
 .why-become__bottom__property_wrapper {
   margin-left: 5%;
 }
@@ -63,15 +74,4 @@
   font-family: "Source Sans Pro Regular";
   line-height: 25px;
   max-width: 90%;
-}
-
-@media screen and (max-width: 768px) {
-  .why-become__bottom {
-    flex-direction: column-reverse;
-  }
-  .why-become__bottom > img {
-    content: url("../assets/reasons-members-mobile.png");
-    width: 75%;
-    align-self: center;
-  }
 }

@@ -42,18 +42,21 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .after-application__step {
-    margin-bottom: 100px;
-  }
   .after-application {
     display: initial;
   }
+
   .after-application div p {
     font-size: 56px;
     line-height: 56px;
     position: initial;
     margin: 60px 20px;
   }
+
+  .after-application__step {
+    margin-bottom: 100px;
+  }
+
   .after-application div,
   .after-application__step_wrapper > .after-application__step {
     margin-left: 10%;
