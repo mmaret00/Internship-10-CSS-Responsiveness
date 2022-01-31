@@ -2,21 +2,18 @@
   margin: 0 200px;
 }
 
-.why-become__title p:last-child {
-  margin-bottom: 100px;
-}
-
-.why-become__title__top {
+.why-become__title p:first-child {
   font-size: 112px;
   font-family: "Source Sans Pro Bold";
   line-height: 120px;
   margin-bottom: 15px;
 }
 
-.why-become__title__bottom {
+.why-become__title p:last-child {
   max-width: 70%;
   font-family: "Fuse V.2 Display";
   line-height: 23px;
+  margin-bottom: 100px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,7 +21,7 @@
     margin: 0 25px;
   }
 
-  .why-become__title__top {
+  .why-become__title p:first-child {
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 20px;
@@ -45,13 +42,13 @@
   margin-left: 5%;
 }
 
-.why-become__bottom__property {
+.why-become__bottom__property_wrapper > span {
   display: flex;
   align-items: flex-start;
   margin-bottom: 80px;
 }
 
-.why-become__bottom__property__text {
+.why-become__bottom__property_wrapper > span span {
   margin: 0 15px;
 }
 

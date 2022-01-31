@@ -9,7 +9,11 @@
   }
 }
 
-.after-application__left-side p {
+.after-application div {
+  margin-right: 5%;
+}
+
+.after-application div p {
   font-family: "Source Sans Pro Bold";
   font-size: 112px;
   position: sticky;
@@ -17,31 +21,8 @@
   line-height: 125px;
 }
 
-.after-application__left-side {
-  margin-right: 5%;
-}
-
 .after-application__step_wrapper {
   margin-left: 5%;
-}
-
-@media screen and (max-width: 768px) {
-  .after-application {
-    display: initial;
-  }
-
-  .after-application__left-side p {
-    font-size: 56px;
-    line-height: 56px;
-    position: initial;
-    margin: 60px 20px;
-  }
-
-  .after-application__left-side,
-  .after-application__step_wrapper > .after-application__step {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
 }
 
 .after-application__step {
@@ -50,12 +31,35 @@
   align-items: center;
 }
 
-.after-application__step__number {
+.after-application__step > p {
   font-family: "Source Sans Pro Bold";
   font-size: 112px;
   color: #44c79b;
   margin-right: 32px;
   opacity: 0.4;
+}
+
+@media screen and (max-width: 1024px) {
+  .after-application__step {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .after-application {
+    display: initial;
+  }
+  .after-application div p {
+    font-size: 56px;
+    line-height: 56px;
+    position: initial;
+    margin: 60px 20px;
+  }
+  .after-application div,
+  .after-application__step_wrapper > .after-application__step {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
 .after-application__step__title {
@@ -70,10 +74,4 @@
   font-size: 16px;
   line-height: 25px;
   max-width: 80%;
-}
-
-@media screen and (max-width: 1024px) {
-  .after-application__step {
-    margin-bottom: 100px;
-  }
 }
